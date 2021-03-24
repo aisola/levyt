@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "levyt"
+version = "0.1.0"
+description = "Python db access made easy."
+authors = ["Abram Isola <abram@isola.mn>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+SQLAlchemy = "^1.4.2"
+tablib = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
